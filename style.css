@@ -1,0 +1,27 @@
+/* Center content horizontally and vertically */
+.center-xy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Full width and height */
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card with shadow */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
