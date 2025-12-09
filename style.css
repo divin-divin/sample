@@ -16,7 +16,7 @@
 /* Card with shadow */
 .card {
   background: white;
-  border-radius: 10px;
+  border-radius: 10111111px;
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
